@@ -5,13 +5,32 @@
     <title>موقــعي</title>
 
     <!-- 👇هنا style قم بإضافة وسم   -->
+    <style>
+
+.ps4-img{ display: block;}
+
+.pc-img{display: block;}
+
+.ni-img{ display: block;}
+ 
+ ul{list-style-type: none;}
+
+ .ps4 {background-color: blue;}
+ .nintendo {background-color: red;}
+ .pc {background-color: green;}
+ h1{ text-align: center;}
+ table{border-color: black;}
+
+
+
+    </style>
     
 
 </head>
 <body>
     <!-- اكتب اسمك بعد مرحباً، -->
     <!-- headالى ال cssثم غير لون الخط عن طريق اضافة كود   -->
-    <h1>مرحبا، انا اسمي</h1>
+    <h1>مرحبا، انا اسمي سلمى</h1>
 
 
     <!-- styles.css قم بإنشاء ملف جديد وقم بتسميته  -->
@@ -19,9 +38,11 @@
 
 
     <!-- قم بتغيير طريقة عرض الصور بحيث تظهر الصور تحت بعض -->
-    <img src="./img/ps4.png" alt="الكويت تبرمج">
-    <img src="./img/Nintendo.png" alt="الكويت تبرمج">
-    <img src="./img/pc.png" alt="الكويت تبرمج">
+    <img src="./img/ps4.png" alt="الكويت تبرمج" class="ps4-img" >
+    
+    <img src="./img/Nintendo.png" alt="الكويت تبرمج" class="ni-img">
+    
+    <img src="./img/pc.png" alt="الكويت تبرمج" class="pc-img">
 
      <!--  بعد ذلك قم باخفاء النقاط من القائمه  -->
      <div>
@@ -30,7 +51,7 @@
             <li>PS4</li>
             <li>nintendo switch</li>
             <li>PC</li>
-        </ul><br><br>
+        </ul>
     </div>  
 
 <!-- في الجدول في الاسفل يظهر اشخاص ولعبتهم المفضله والمنصه التي يلعبون بها -->
@@ -39,44 +60,44 @@
 <!-- Nintendo: red   -->
 <!-- PC:       green -->
 <!-- تلميح: يجب عليك اضافة كلاس لكل اسم -->
-    <table>
+    <table border="3" >
         <tr>
             <th>الاسم</th>
             <th>العمر</th>
             <th>اللعبه المفضله</th>
             <th>المنصه</th>
         </tr>
-        <tr>
+        <tr class="ps4">
             <td>احمد</td>
             <td>16</td>
             <td>call of duty</td>
             <td>PS4</td>
         </tr>
-        <tr>
+        <tr class="nintendo">
             <td>ساره</td>
             <td>15</td>
             <td>mario party</td>
             <td>nintendo switch</td>
         </tr>
-        <tr>
+        <tr class="pc">
             <td>علي</td>
             <td>15</td>
             <td>league of legends</td>
             <td>PC</td>
         </tr>
-        <tr>
+        <tr class="ps4">
             <td>عبدالله</td>
             <td>14</td>
             <td>fifa</td>
             <td>PS4</td>
         </tr>
-        <tr>
+        <tr class="nintendo">
             <td>دانه</td>
             <td>22</td>
             <td>super smash bros</td>
             <td>nintendo switch</td>
         </tr>
-        <tr>
+        <tr class=pc>
             <td>ليلى</td>
             <td>17</td>
             <td>minecraft</td>

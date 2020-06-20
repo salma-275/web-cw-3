@@ -1,0 +1,19 @@
+<style>
+
+.ps4-img{ display: block;}
+
+.pc-img{display: block;}
+
+.ni-img{ display: block;}
+ 
+ ul{list-style-type: none;}
+
+ .ps4 {background-color: blue;}
+ .nintendo {background-color: red;}
+ .pc {background-color: green;}
+ h1{ text-align: center;}
+ table{border-color: black;}
+
+
+
+    </style>
